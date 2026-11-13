@@ -1,4 +1,4 @@
-# Dualscan QR Link SDK
+# Dualscan™ Zelle QR Link SDK
 
 Dualscan QR Link SDK is a reference implementation for reading the observed Zelle® QR code URL format in an iOS or Android app. The SDK extracts the encoded recipient name and token locally. The sample apps demonstrate link delivery, camera scanning where supported, and pasting a URL.
 
