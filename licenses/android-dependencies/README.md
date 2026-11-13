@@ -1,0 +1,54 @@
+# Android debug APK dependencies
+
+The APK resolves these runtime artifacts. AndroidX components use the [Apache License 2.0](../Gson-LICENSE.txt). Google artifacts retain their own [SDK terms](https://developers.google.com/ml-kit/terms). The notice files in this directory come from the resolved AARs.
+
+- `androidx.activity:activity:1.3.1`
+- `androidx.annotation:annotation:1.1.0`
+- `androidx.arch.core:core-common:2.1.0`
+- `androidx.arch.core:core-runtime:2.1.0`
+- `androidx.asynclayoutinflater:asynclayoutinflater:1.0.0`
+- `androidx.collection:collection:1.0.0`
+- `androidx.coordinatorlayout:coordinatorlayout:1.0.0`
+- `androidx.core:core:1.2.0`
+- `androidx.cursoradapter:cursoradapter:1.0.0`
+- `androidx.customview:customview:1.0.0`
+- `androidx.documentfile:documentfile:1.0.0`
+- `androidx.drawerlayout:drawerlayout:1.0.0`
+- `androidx.exifinterface:exifinterface:1.0.0`
+- `androidx.fragment:fragment:1.0.0`
+- `androidx.interpolator:interpolator:1.0.0`
+- `androidx.legacy:legacy-support-core-ui:1.0.0`
+- `androidx.legacy:legacy-support-core-utils:1.0.0`
+- `androidx.lifecycle:lifecycle-common:2.3.1`
+- `androidx.lifecycle:lifecycle-livedata:2.0.0`
+- `androidx.lifecycle:lifecycle-livedata-core:2.3.1`
+- `androidx.lifecycle:lifecycle-runtime:2.3.1`
+- `androidx.lifecycle:lifecycle-viewmodel:2.3.1`
+- `androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1`
+- `androidx.loader:loader:1.0.0`
+- `androidx.localbroadcastmanager:localbroadcastmanager:1.0.0`
+- `androidx.print:print:1.0.0`
+- `androidx.savedstate:savedstate:1.1.0`
+- `androidx.slidingpanelayout:slidingpanelayout:1.0.0`
+- `androidx.swiperefreshlayout:swiperefreshlayout:1.0.0`
+- `androidx.tracing:tracing:1.0.0`
+- `androidx.versionedparcelable:versionedparcelable:1.1.0`
+- `androidx.viewpager:viewpager:1.0.0`
+- `com.google.android.datatransport:transport-api:2.2.1`
+- `com.google.android.datatransport:transport-backend-cct:2.3.3`
+- `com.google.android.datatransport:transport-runtime:2.2.6`
+- `com.google.android.gms:play-services-base:18.1.0`
+- `com.google.android.gms:play-services-basement:18.1.0`
+- `com.google.android.gms:play-services-code-scanner:16.1.0`
+- `com.google.android.gms:play-services-tasks:18.0.2`
+- `com.google.android.odml:image:1.0.0-beta1`
+- `com.google.code.gson:gson:2.11.0`
+- `com.google.errorprone:error_prone_annotations:2.27.0`
+- `com.google.firebase:firebase-annotations:16.0.0`
+- `com.google.firebase:firebase-components:16.1.0`
+- `com.google.firebase:firebase-encoders:16.1.0`
+- `com.google.firebase:firebase-encoders-json:17.1.0`
+- `com.google.mlkit:barcode-scanning-common:17.0.0`
+- `com.google.mlkit:common:18.9.0`
+- `com.google.mlkit:vision-common:17.0.0`
+- `javax.inject:javax.inject:1`

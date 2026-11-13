@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="no-referrer">
+    <title>QR link demo</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./demo.mjs"></script>
+</head>
+<body>
+    <main class="demo">
+        <header>
+            <h1>QR link demo</h1>
+            <p>Generate a QR code and scan it from another phone. Use the sample recipient to test the link.</p>
+        </header>
+        <div class="demo-layout">
+            <form id="generator">
+                <label for="recipient-name">Recipient name</label>
+                <input id="recipient-name" value="Taylor" autocomplete="off" required>
+                <label for="recipient-token">Recipient token</label>
+                <input id="recipient-token" value="12025550123" autocomplete="off" required>
+                <label for="destination">Link destination</label>
+                <select id="destination">
+                    <option value="canonical">Original Zelle URL</option>
+                    <option value="bridge">Your verified app link host</option>
+                </select>
+                <div id="bridge-field" hidden>
+                    <label for="bridge-host">Bridge host</label>
+                    <input id="bridge-host" placeholder="qr.example.com" autocomplete="off"
+                           autocapitalize="none" spellcheck="false" disabled>
+                </div>
+                <button type="submit">Generate QR</button>
+                <p id="sample-actions" class="sample-actions" hidden>
+                    <a id="open-sample" rel="noreferrer">Open sample app</a>
+                </p>
+                <p id="status" role="alert" hidden></p>
+            </form>
+            <figure id="preview">
+                <img id="qr" src="./fixtures/canonical.png" width="328" height="328" alt="Scannable QR code for the generated link">
+                <figcaption>
+                    <label for="generated-link">Generated link</label>
+                    <input id="generated-link" readonly spellcheck="false">
+                </figcaption>
+            </figure>
+        </div>
+        <noscript>Enable JavaScript to generate a QR code.</noscript>
+    </main>
+</body>
+</html>

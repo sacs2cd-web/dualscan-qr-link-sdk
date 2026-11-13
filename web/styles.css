@@ -1,0 +1,132 @@
+:root {
+    color-scheme: light;
+    font-family: "Inter", system-ui, sans-serif;
+    color: #142842;
+    background: #edf2f8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+body {
+    margin: 0;
+    padding: clamp(1rem, 5vw, 4rem);
+}
+
+main {
+    max-width: 54rem;
+    margin-inline: auto;
+    padding: clamp(1.25rem, 5vw, 3rem);
+    background: #fff;
+    border: 1px solid #ccd8e6;
+    border-radius: 1rem;
+}
+
+.fallback {
+    max-width: 29rem;
+}
+
+h1 {
+    margin: 0 0 0.5rem;
+    font-size: clamp(1.85rem, 6vw, 2.6rem);
+    line-height: 1.15;
+}
+
+p {
+    margin-block: 0 1.25rem;
+    line-height: 1.55;
+}
+
+.demo-layout {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: clamp(1.5rem, 6vw, 3.5rem);
+}
+
+label {
+    display: block;
+    margin: 0 0 0.35rem;
+    font-weight: 600;
+}
+
+input, select {
+    display: block;
+    width: 100%;
+    min-height: 2.75rem;
+    margin: 0 0 1rem;
+    padding: 0.55rem 0.7rem;
+    font: inherit;
+    color: inherit;
+    background: #fff;
+    border: 1px solid #91a4bb;
+    border-radius: 0.45rem;
+}
+
+button, .button {
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    font: inherit;
+    font-weight: 650;
+    color: #fff;
+    background: #163f79;
+    border: 1px solid #163f79;
+    border-radius: 0.45rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover, .button:hover {
+    background: #0e2e5d;
+}
+
+a {
+    color: #163f79;
+    text-underline-offset: 0.18rem;
+}
+
+:focus-visible {
+    outline: 3px solid #306bc1;
+    outline-offset: 3px;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    display: block;
+    width: min(100%, 20.5rem);
+    height: auto;
+    margin: 0 auto 1rem;
+    border: 1px solid #ccd8e6;
+    border-radius: 0.45rem;
+    image-rendering: pixelated;
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sample-actions {
+    margin-top: 0.75rem;
+}
+
+#generator [role="alert"] {
+    margin-top: 0.75rem;
+    color: #942823;
+}
+
+@media (max-width: 39rem) {
+    .demo-layout {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}

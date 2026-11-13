@@ -1,0 +1,9 @@
+<resources>
+    <color name="surface">#EFF5F3</color>
+    <color name="card">#FFFFFF</color>
+    <color name="ink">#152B27</color>
+    <color name="secondary">#48605A</color>
+    <color name="action">#126351</color>
+    <color name="outline">#D4E2DE</color>
+    <color name="error">#932C32</color>
+</resources>

@@ -1,0 +1,4 @@
+BRIDGE_HOST = qr.example.com
+QR_SCHEME = dualscan-zelleqr
+// Enable once the signing App ID and bridge domain are associated.
+// CODE_SIGN_ENTITLEMENTS = ZelleQRSample/UniversalLinks.entitlements

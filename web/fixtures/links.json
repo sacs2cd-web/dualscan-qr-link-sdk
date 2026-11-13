@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "name": "Taylor",
+    "token": "12025550123"
+  },
+  "links": {
+    "canonical": "https://enroll.zellepay.com/qr-codes?data=eyJuYW1lIjoiVGF5bG9yIiwidG9rZW4iOiIxMjAyNTU1MDEyMyJ9",
+    "bridge-placeholder": "https://qr.example.com/qr-codes?data=eyJuYW1lIjoiVGF5bG9yIiwidG9rZW4iOiIxMjAyNTU1MDEyMyJ9"
+  }
+}

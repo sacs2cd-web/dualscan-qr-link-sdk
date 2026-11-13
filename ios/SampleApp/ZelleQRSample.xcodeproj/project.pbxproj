@@ -1,0 +1,219 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A5D10000000000000000001 /* ZelleQRSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D10000000000000000011 /* ZelleQRSampleApp.swift */; };
+		8A5D10000000000000000002 /* QRCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D10000000000000000012 /* QRCodeScanner.swift */; };
+		8A5D10000000000000000003 /* ZelleQRLink in Frameworks */ = {isa = PBXBuildFile; productRef = 8A5D10000000000000000041 /* ZelleQRLink */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A5D10000000000000000011 /* ZelleQRSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZelleQRSampleApp.swift; sourceTree = "<group>"; };
+		8A5D10000000000000000012 /* QRCodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScanner.swift; sourceTree = "<group>"; };
+		8A5D10000000000000000013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A5D10000000000000000014 /* UniversalLinks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UniversalLinks.entitlements; sourceTree = "<group>"; };
+		8A5D10000000000000000015 /* SampleSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SampleSettings.xcconfig; sourceTree = "<group>"; };
+		8A5D10000000000000000016 /* ZelleQRSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZelleQRSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A5D10000000000000000021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (8A5D10000000000000000003 /* ZelleQRLink in Frameworks */);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A5D10000000000000000031 = {
+			isa = PBXGroup;
+			children = (
+				8A5D10000000000000000032 /* ZelleQRSample */,
+				8A5D10000000000000000015 /* SampleSettings.xcconfig */,
+				8A5D10000000000000000033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A5D10000000000000000032 /* ZelleQRSample */ = {
+			isa = PBXGroup;
+			children = (
+				8A5D10000000000000000011 /* ZelleQRSampleApp.swift */,
+				8A5D10000000000000000012 /* QRCodeScanner.swift */,
+				8A5D10000000000000000013 /* Info.plist */,
+				8A5D10000000000000000014 /* UniversalLinks.entitlements */,
+			);
+			path = ZelleQRSample;
+			sourceTree = "<group>";
+		};
+		8A5D10000000000000000033 /* Products */ = {
+			isa = PBXGroup;
+			children = (8A5D10000000000000000016 /* ZelleQRSample.app */);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A5D10000000000000000051 /* ZelleQRSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A5D10000000000000000072 /* Build configuration list for PBXNativeTarget "ZelleQRSample" */;
+			buildPhases = (
+				8A5D10000000000000000022 /* Sources */,
+				8A5D10000000000000000021 /* Frameworks */,
+				8A5D10000000000000000023 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = ZelleQRSample;
+			packageProductDependencies = (8A5D10000000000000000041 /* ZelleQRLink */);
+			productName = ZelleQRSample;
+			productReference = 8A5D10000000000000000016 /* ZelleQRSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A5D10000000000000000061 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {8A5D10000000000000000051 = {CreatedOnToolsVersion = 15.0; }; };
+			};
+			buildConfigurationList = 8A5D10000000000000000071 /* Build configuration list for PBXProject "ZelleQRSample" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = 8A5D10000000000000000031;
+			packageReferences = (8A5D10000000000000000042 /* XCLocalSwiftPackageReference "../ZelleQRLink" */);
+			productRefGroup = 8A5D10000000000000000033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (8A5D10000000000000000051 /* ZelleQRSample */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A5D10000000000000000023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A5D10000000000000000022 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5D10000000000000000001 /* ZelleQRSampleApp.swift in Sources */,
+				8A5D10000000000000000002 /* QRCodeScanner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A5D10000000000000000081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8A5D10000000000000000082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8A5D10000000000000000083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5D10000000000000000015 /* SampleSettings.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZelleQRSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dualscan.zelleqr.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A5D10000000000000000084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5D10000000000000000015 /* SampleSettings.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZelleQRSample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dualscan.zelleqr.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A5D10000000000000000071 /* Build configuration list for PBXProject "ZelleQRSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (8A5D10000000000000000081 /* Debug */, 8A5D10000000000000000082 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A5D10000000000000000072 /* Build configuration list for PBXNativeTarget "ZelleQRSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (8A5D10000000000000000083 /* Debug */, 8A5D10000000000000000084 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		8A5D10000000000000000042 /* XCLocalSwiftPackageReference "../ZelleQRLink" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../ZelleQRLink;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8A5D10000000000000000041 /* ZelleQRLink */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A5D10000000000000000042 /* XCLocalSwiftPackageReference "../ZelleQRLink" */;
+			productName = ZelleQRLink;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8A5D10000000000000000061 /* Project object */;
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dualscan.zelleqr.sample",
+      "sha256_cert_fingerprints": ["YOUR_ANDROID_APP_SIGNING_SHA256"]
+    },
+    "relation_extensions": {
+      "delegate_permission/common.handle_all_urls": {
+        "dynamic_app_link_components": [
+          { "/": "/qr-codes" },
+          { "/": "/qr-codes/" },
+          { "/": "*", "exclude": true }
+        ]
+      }
+    }
+  }
+]

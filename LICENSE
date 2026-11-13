@@ -1,0 +1,81 @@
+# DUALSCAN OS COMMUNITY & COMMERCIAL LICENSE
+
+**Version 1.0 — October 2026**
+
+Copyright © 2026 Dualscan LLC. All rights reserved.
+
+### 1. Worldwide License Grant
+
+The Licensor grants any individual, developer, organization, or commercial entity a worldwide, non-exclusive, royalty-free license to use, reproduce, modify, customize, and distribute Dualscan OS and derivative distributions, subject to the conditions of this License.
+
+This grant applies to personal, educational, research, nonprofit, and commercial applications.
+
+### 2. Authorized Derivative Distributions
+
+Licensees may create and distribute derivative versions of Dualscan OS, including customized operating system images, device-specific builds, and commercial OEM distributions.
+
+Permitted customization includes:
+
+- Adding proprietary or open-source applications.
+- Adding custom interfaces, themes, and branding.
+- Integrating additional hardware and software functionality.
+- Modifying non-protected system components.
+- Distributing customized images commercially without payment of licensing royalties.
+
+### 3. Mandatory Preservation of Core OEM Components
+
+Every redistributed or derivative Dualscan OS image must preserve the Core OEM Components supplied in the original licensed distribution.
+
+Core OEM Components include the applications, configurations, system services, and home-screen tray applications expressly identified in the Licensor's published Core OEM Component Manifest.
+
+Licensees shall not remove, disable, replace, conceal, or materially impair these components in distributed derivatives without prior written authorization.
+
+### 4. Home-Screen Tray Preservation
+
+All mandatory Dualscan OS OEM applications originally designated for the home-screen tray must remain installed, accessible, and visibly represented in their designated tray positions in every redistributed derivative.
+
+Licensees may add applications or additional launchers, provided that such modifications do not remove, conceal, or interfere with the mandatory OEM tray applications.
+
+### 5. Operational Integrity
+
+Additional applications, services, and customizations must not intentionally interfere with the intended operation of the protected Dualscan OS OEM applications.
+
+This requirement applies to derivative distributions as delivered and does not prohibit ordinary end-user control over a lawfully acquired device.
+
+### 6. Commercial Rights
+
+Commercial use, distribution, resale, and incorporation into commercial products are permitted without royalties under this License.
+
+No separate commercial license is required for activities that comply with these terms.
+
+### 7. Notices and Attribution
+
+All derivative distributions must retain the applicable Dualscan OS copyright notices, license notices, and identification of the original distribution.
+
+Modified distributions must identify themselves as derivatives and disclose their modifications.
+
+### 8. Third-Party Components
+
+This License applies only to intellectual property that the Licensor owns or is authorized to license.
+
+Third-party software, including Android Open Source Project components and other separately licensed packages, remains governed by its respective licenses.
+
+Nothing in this License overrides rights granted by applicable third-party open-source licenses.
+
+### 9. Trademarks
+
+This License does not independently grant rights to use Dualscan OS trademarks or logos beyond identifying the origin of licensed software. Additional trademark permissions require authorization from the relevant rights holder.
+
+### 10. Termination
+
+Rights granted under this License terminate upon material violation of its conditions if the violation is not cured within 30 days after written notice.
+
+Termination does not extinguish rights independently granted under applicable third-party licenses.
+
+### 11. Disclaimer
+
+To the maximum extent permitted by applicable law, the software is provided "AS IS," without warranties of any kind. The Licensor disclaims liability for damages arising from its use or distribution.
+
+### 12. Acceptance
+
+By exercising the rights granted under this License, a licensee agrees to comply with its applicable conditions.

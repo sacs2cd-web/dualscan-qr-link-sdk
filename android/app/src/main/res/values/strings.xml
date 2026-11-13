@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">QR Link Sample</string>
+    <string name="subtitle">Read the recipient fields from a Zelle-format QR link.</string>
+    <string name="scan_qr">Scan QR code</string>
+    <string name="paste_hint">Paste a QR link</string>
+    <string name="decode_link">Decode link</string>
+    <string name="try_sample">Try sample link</string>
+    <string name="recipient">Recipient</string>
+    <string name="recipient_label">Name</string>
+    <string name="token_label">Token</string>
+    <string name="show_token">Show token</string>
+    <string name="hide_token">Hide token</string>
+    <string name="token_hidden">••••••••</string>
+    <string name="clear">Clear</string>
+    <string name="unverified">Recipient details come from the QR code and are unverified.</string>
+    <string name="independent_sample">Independent sample app</string>
+    <string name="invalid_link">Enter a complete QR link.</string>
+    <string name="unsupported_link">This QR link address is unsupported.</string>
+    <string name="missing_data">The QR link needs one data parameter.</string>
+    <string name="invalid_payload">The QR link contains invalid recipient data.</string>
+    <string name="scanner_unavailable">Scanner unavailable. Copy or share the link from your camera or browser.</string>
+</resources>
